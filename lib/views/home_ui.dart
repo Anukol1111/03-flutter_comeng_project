@@ -11,14 +11,17 @@ import 'sub_d_home_ui.dart';
 
 // หน้าหลัก: AppBar + BottomNavigationBar สลับหน้า SubA–SubD
 class HomeUI extends StatefulWidget {
-  const HomeUI({super.key});
+  const HomeUI({super.key, this.initialIndex = 0});
+
+  // แท็บที่เปิดเป็นแท็บแรก (0 = การเดินทาง)
+  final int initialIndex;
 
   @override
   State<HomeUI> createState() => _HomeUIState();
 }
 
 class _HomeUIState extends State<HomeUI> {
-  int _currentIndex = 0;
+  late int _currentIndex = widget.initialIndex;
 
   final List<Widget> _pages = const [
     SubAHomeUI(),

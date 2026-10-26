@@ -4,6 +4,23 @@
 "Mobile App: flutter_thai_hotline_app" (tested at iPhone 16 Pro Max size, 440 x 956).
 Main font: Kanit (google_fonts). Tap a hotline card or its phone icon to call (url_launcher).
 
+## Screenshots
+
+Captured from the running app at iPhone 16 Pro Max size (440 x 956).
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/01_splash.png" width="220" alt="SplashScreenUI"><br><b>SplashScreenUI</b><br>หน้าแรก</td>
+    <td align="center"><img src="screenshots/02_travel.png" width="220" alt="SubAHomeUI"><br><b>SubAHomeUI</b><br>การเดินทาง</td>
+    <td align="center"><img src="screenshots/03_emergency.png" width="220" alt="SubBHomeUI"><br><b>SubBHomeUI</b><br>อุบัติเหตุ-เหตุฉุกเฉิน</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/04_bank.png" width="220" alt="SubCHomeUI"><br><b>SubCHomeUI</b><br>ธนาคาร</td>
+    <td align="center"><img src="screenshots/05_utilities.png" width="220" alt="SubDHomeUI"><br><b>SubDHomeUI</b><br>สาธารณูปโภค</td>
+    <td align="center"><img src="screenshots/06_about.png" width="220" alt="AboutUI"><br><b>AboutUI</b><br>ผู้จัดทำ</td>
+  </tr>
+</table>
+
 ## Screens
 
 | File | Class | Screen |
